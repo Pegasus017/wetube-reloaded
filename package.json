@@ -1,0 +1,27 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pegasus017/wetube-reloaded.git"
+  },
+  "author": "KyungHun Mah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pegasus017/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/Pegasus017/wetube-reloaded#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.20.0",
+    "@babel/preset-env": "^7.19.4",
+    "nodemon": "^2.0.20"
+  }
+}
